@@ -1,0 +1,501 @@
+.video video{
+ width:100%;
+  height:auto;
+  top:0;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-left: 30px;
+   
+}
+.overlay1{
+  position: absolute;
+  top: 0;
+    left: 0;
+    width: 450px;
+    height: 200px;
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+    margin-left: 100px;
+    color:white;
+    font-size: 30px;
+}
+.menuoverlay1{
+  position: absolute;
+  top: 0;
+    left: 0;
+    width: 450px;
+    height: 200px;
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+    margin-left: 100px;
+    color:white;
+    font-size: 30px;
+}
+.brew{
+  padding: 0;
+  font-family:Protest Guerrilla;
+  font-size: 35px;
+}
+.aboutus{
+    font-size: 22px;
+    font-family: 'Times New Roman';
+    color:black;
+    width:550px;
+    display: flex;
+    right: 0;
+   
+}
+.whole{
+  background-color: black;
+}
+.end{
+  margin-left: 470px;
+  margin-right: 150px;
+  font-family: Spicy Rice;
+  font-size: 40px ;
+  color: white;
+  height: 500px;
+  width: 500px;
+ 
+}
+.con1{
+  color: white;
+  margin-left: -80px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Spicy Rice;
+}
+.con2{
+  color: white;
+  margin-left: 50px;
+  margin-right: 10px;
+  font-size: 25px;
+  font-family: Spicy Rice;
+}
+.con{
+  color: white;
+  margin-left: -60px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family:Spicy Rice;
+ 
+
+}
+.social{
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  margin-left: -240px;
+}
+.insta {
+  height: 30px;
+  width: 30px;
+  padding: 5px; /* Adjusted padding for better alignment */
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.face {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  vertical-align: top;
+  margin: 0 10px; /* Adds space between icons */
+}
+.image1 {
+  display: flex;
+  position: absolute; 
+  right: 0; 
+  top: 700px; 
+  opacity: 0.8;
+  height: 450px;
+
+}
+.savimage1 {
+  display: flex;
+  position: absolute; 
+
+  right: 10px; 
+  top: 0; 
+  opacity: 0.8;
+  height: 450px;
+  margin-right: 780px;
+  justify-content: center;
+}
+.image1:hover{
+  opacity:1;
+}
+.vid{
+ /* margin-right: 10px;
+  height: 540px;
+  width: 450px;*/
+  width: 100%;      /* Make it responsive within the container */
+  max-width: 1000px; /* Set a maximum width */
+  height: 520px;     /* Maintain aspect ratio */
+  margin-right: -45px;
+}
+.head{
+  /*margin-top: 13px;*/
+  /*height: 15px;*/
+  font-family:'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+
+}
+.head a{
+  text-decoration: none;
+  color: white;
+  top: 0;
+}
+
+.head a:hover{
+  opacity: 0.5;
+}
+.best{
+  align-items: center;
+  margin-left: 400px;
+  margin-right: 25px;
+  color:black; 
+  font-family:Spicy Rice;
+  font-size: 40px;
+
+}
+
+
+.bestsell{
+    display: flex;
+    flex-direction: row;
+}
+.bestsellimages{
+  height:170px;
+  width:200px;
+  margin-left:170px ;
+  margin-top: 80px;
+}
+body{
+ height: 2000px;
+}
+.rating{
+  color:black;
+  margin-left:-180px;
+  margin-top: 260px;
+  font-weight: bold;
+ }
+ .signup{
+
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+box-sizing: border-box;
+border-width: 1px;
+border-color: black;
+border-style: solid;
+margin-top: 75px;
+margin-bottom: -12px;
+font-size: 16px;
+
+}
+
+form{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  top:-5px;
+}
+.btn{
+  height: 30px;
+  width: 150px;
+  padding: 3px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: black;
+  cursor: pointer;
+  background-color: aqua;
+}
+.btn:hover{
+  opacity: 0.7;
+}
+.registration{
+  height: 100%;
+  background-size: cover; /* Make the image cover the entire screen */
+  background-position: center;
+  background-image: url("images/sign.jpg");
+  margin: 0;
+  display: flex; /* Flexbox to center the content */
+  justify-content: center; /* Horizontally center */
+  align-items: center; 
+
+}
+
+.signoverlay{
+  position: absolute;
+  top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -30px;
+    margin-left: 30px;
+   
+  
+}
+.head a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  top:0;
+}
+.signoverlay1{
+  position: relative;
+    padding: 30px; /* Padding inside the box */
+    background-color: black;
+    opacity: 0.7; /* Light background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow for depth effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 400px;
+    height: 410px;
+   
+  }
+
+   a{
+    /*margin-top: 13px;*/
+    /*height: 15px;*/
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    margin-left: 20px;
+    top:0;
+    margin-top: 0px;
+    text-decoration: none;
+    
+  
+  }
+  .header {
+    position: absolute; /* Position it to the left */
+    top: 0; /* Make sure it's at the top */
+    left: 0; /* Move the header to the left side of the screen */
+    margin: 0; /* Remove unnecessary margin */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  .forgot{
+    text-decoration: underline;
+  }
+
+  .menu{
+  
+    background-color: black;
+    height: 500px;
+    width:1250px;
+    position: relative;
+    top: 0;
+  
+  }
+  .details {
+    display: flex;           /* Enable flexbox layout */
+    flex-direction: row;      /* Align items in a row */
+    justify-content: space-between;   /* Align items at the start (left) of the container */
+    align-items: center;      /* Align items vertically centered */
+    gap: 20px;  
+    flex-wrap: wrap;
+                  /* Add space between each item */
+  }
+  .esp {
+    flex: 1 1 calc(33.33% - 20px); 
+    justify-content: center;
+    display: flex;            /* Flexbox for text and image inside .esp */
+    flex-direction: column;   /* Stack text and image vertically */
+    align-items: center;  
+    font-weight: bold; 
+    font-size: 20px;   /* Center the text and image inside .esp */
+    cursor: pointer;
+  }
+  
+  .espresso-image {
+    margin-top: 10px;         /* Add spacing between the text and image */
+  }
+  .menuheader{
+   
+      color: white;                 /* Text color */
+      font-size: 20px;              /* Font size for the links */
+      position: absolute;           /* Position it absolutely on the screen */
+      top: 0;                       /* Place it at the top */
+      left: 0;                      /* Align to the left */
+      margin: 0;                    /* Remove any default margin */
+      display: flex;                /* Use flexbox to align links in a row */
+      flex-direction: row;          /* Ensure horizontal alignment */
+      align-items: center;          /* Vertically center the text */
+      padding: 20px;                /* Add some padding around the links */
+      z-index: 1000;  
+  }
+  .revheader{
+    background-color: black;
+    color:white;                 /* Text color */
+    font-size: 20px;              /* Font size for the links */
+    position: absolute;           /* Position it absolutely on the screen */
+    top: 0;                       /* Place it at the top */
+    left: 0;                      /* Align to the left */
+    margin: 0;                    /* Remove any default margin */
+    display: flex;                /* Use flexbox to align links in a row */
+    flex-direction: row;          /* Ensure horizontal alignment */
+    align-items: center;          /* Vertically center the text */
+    padding: 20px;                /* Add some padding around the links */
+    z-index: 1000; 
+    width:1250px; 
+}
+
+
+  .from{
+    font-size: 35px;
+    color:white;
+    background-color: black;
+    height: 50px;
+    width:1250px;
+    text-align: center;
+    top:0;
+    margin-top: -10px;
+
+}
+.dropdown{
+
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+box-sizing: border-box;
+border-width: 1px;
+border-color: black;
+border-style: solid;
+margin-top: 75px;
+margin-bottom: -12px;
+font-size: 16px;
+
+}
+.signoverlay2{
+  position: relative;
+    padding: 30px; /* Padding inside the box */
+    background-color: black;
+    opacity: 0.85; /* Light background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow for depth effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 80px;
+    width: 400px;
+    height: 410px;
+   
+  }
+  .order{
+    height: 650px;
+    background-image: url("images/sign.jpg");
+    background-size: cover;
+    top:0;
+    
+  }
+ /* .pbody{
+    height: 650px;
+    width:1250px;
+  }*/
+  .pay{
+    height: 500px;
+    width:500px;
+  }
+  .pbody{
+    height:600px;
+    width: 1250px;
+  }
+  .cart{
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width:1200px;
+    margin: auto;
+    
+    border: none;
+}
+
+
+table.cart {
+  width: 100%;
+  border-collapse:collapse;
+  table-layout: fixed; 
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+
+table.cart th {
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+table.cart td {
+  padding: 10px;
+  text-align: left;
+  /*border-bottom: 1px;*/
+}
+
+
+table.cart tfoot td {
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.proceed{
+  background-color: black;
+  color:white;
+  height:40px;
+  width:150px ;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: -250px;
+  margin-left: 550px;
+}

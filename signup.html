@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="registration" >
+    <div class="header">
+
+      <a href = "home.html"> Home &nbsp; &nbsp;</a>
+
+    </div>
+      <div class="signoverlay1">
+        <h2 style="color: white;margin-top: -5px;">Create Account</h2>
+        <br><br>
+    <form>
+
+    <label for="name" ></label>
+    <input class="signup" id = "name" type="text" placeholder="Name">
+
+    <label for="Email-id" ></label>
+    <input type="text" placeholder="Email-id"  id = "Email-id" class="signup">
+  
+    <label for="Password" ></label>
+    <input type="password" placeholder="Password" id="Password" class="signup" >
+    <br><br>
+    
+    <button onclick="sign()" class="btn" type = "button" >Create  account</button>
+  </form>
+</div>
+<script>
+    function sign(){
+
+      const username = document.getElementById('name').value.trim();
+    const email = document.getElementById('Email-id').value.trim();
+    const password = document.getElementById('Password').value.trim();
+
+      if(!username||!email||!password){
+            alert('Enter details!');
+      }else{
+      
+        window.location.href="login.html";
+        
+      }
+    }
+</script>
+  </body>
+</html>

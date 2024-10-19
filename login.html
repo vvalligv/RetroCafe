@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="registration" >
+    <div class="header">
+
+      <a href = "home.html"> Home &nbsp; &nbsp;</a>
+     
+   
+    </div>
+      <div class="signoverlay1">
+        <h2 style="color: white;margin-top: -5px;">Login</h2>
+        <br><br>
+    <form>
+
+    <label for="Email-id" ></label>
+    <input type="text" placeholder="Email-id"  id = "Email-id" class="signup">
+  
+    <label for="Password" ></label>
+    <input type="password" placeholder="Password" id="Password" class="signup" >
+    <br><br>
+    <a class="forgot" href="req.html">Forgot your Password?</a>
+    <br>
+    <button onclick="sub()" class="btn" type="button">Submit</button>
+  </form>
+</div>
+<script>
+
+
+  function sub(){
+
+    const email = document.getElementById('Email-id').value.trim();
+    const password = document.getElementById('Password').value.trim();
+
+    if(!email || !password){
+      alert('Enter details!');
+    }else{
+    window.location.href="menu.html";
+  }
+}
+</script>
+  </body>
+</html>

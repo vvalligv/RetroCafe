@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="pbody">
+    <div class="menuheader">
+
+      <a href = "home.html"> Home &nbsp; &nbsp;</a>
+      <a href = "order.html"> Order &nbsp; &nbsp;</a>
+    </div>
+
+    <img height="600px"width="1250px"; src="images/paybg.jpg">
+   <br><br><br><br>
+
+   <div style="text-align: center; font-size: 50px;">
+    Pay....
+   </div>
+   <br><br><br>
+   <p style = "color:black; margin-left:70px; font-size: 20px;font-style: italic;font-weight: bold;">Cash on Delivery is acceptable.....</p>
+   <br>
+   <br>
+   <div class="details">
+    <div class=" esp">
+      <a href="https://pay.google.com" target="_blank">
+      <button >
+
+        <img style="height: 250px; width: 250px;cursor: pointer;  " src="images/gpay.gif"></button>
+      </a>
+    </div>
+
+    <div class= "esp">
+      <a href="https://www.paypal.com/us/home" target="_blank">
+
+      <button>
+
+        <img style="height: 250px; width: 250px;cursor: pointer;  " src="images/paypal.gif"></button>
+      </a>
+    </div>
+    <br><br>
+    <div class= "esp">
+      <a href= "https://www.visa.com" target="_blank">
+
+      <button>
+
+        <img style="height: 250px; width: 250px; cursor: pointer; " src="images/visa.gif"></button>
+      </a>
+    </div>
+    <br><br>
+    <div >
+      <a href= "https://www.mastercard.com" target="_blank">
+
+      <button style ="margin-left:250px">
+
+        <img style="height: 250px; width: 250px; cursor: pointer; " src="images/mastercard.webp"></button>
+      </a>
+    </div>
+    <div>
+      <a href="https://www.americanexpress.com" target="_blank">
+
+      <button style="margin-right: 250px;">
+
+        <img style="height: 250px; width: 250px; cursor: pointer; " src="images/americanexpress.gif"></button>
+      </a>
+    </div>
+    
+</div>
+<br><br>
+<button onclick="checkout()" style="color:white; background-color: black;height:40px;width:150px;border:none;border-radius: 15px;
+margin-left: 550px;font-size: 15px;cursor: pointer;">Continue</button>
+
+<script>
+  function checkout(){
+    window.location.href="checkout.html";
+  }
+</script>
+  </body>
+</html>
